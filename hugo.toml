@@ -7,7 +7,7 @@ languageCode = 'en-us'
 theme = "hugo-blog-awesome"
 
 # This defines how dates are formatted
-defaultContentLanguage = "en-gb"
+defaultContentLanguage = "en"
 
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
 # To disable Google Analytics, simply leave the field empty or remove the next line
@@ -33,32 +33,32 @@ disqusShortname = ''
 		ordered = false # generates <ul> instead of <ol>
 
 ############################## English language ################################
-[Languages.en-gb]
+[Languages.en]
   languageName = "English"
-  languageCode = "en-gb"
+  languageCode = "en"
   contentDir = "content/en"
   weight = 1
 
-  [Languages.en-gb.menu]
-  [[Languages.en-gb.menu.main]]
+  [Languages.en.menu]
+  [[Languages.en.menu.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
     name = 'Home'
     url = '/'
     weight = 10
-  [[Languages.en-gb.menu.main]]
+  [[Languages.en.menu.main]]
     pageRef="posts"
     name = 'Posts'
     url = '/posts/'
     weight = 20
-  [[Languages.en-gb.menu.main]]
+  [[Languages.en.menu.main]]
     pageRef="about"
     name = 'About'
     url = '/about/'
     weight = 30
 
-[Languages.en-gb.params]
+[Languages.en.params]
   sitename = "Offensive Posts"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
@@ -80,7 +80,7 @@ disqusShortname = ''
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
 
-[Languages.en-gb.params.author]
+[Languages.en.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Offensive Posts"
@@ -88,7 +88,7 @@ disqusShortname = ''
   description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
 
 # Allow to override webmanifest options
-[Languages.en-gb.params.webmanifest]
+[Languages.en.params.webmanifest]
   name = "sitename" # will use "params.sitename" or "title" by default
   short_name = "sitename" # same as name
   start_url = "/" # will use homepage url by default
@@ -112,7 +112,7 @@ disqusShortname = ''
     weight = 10
   [[Languages.es.menu.main]]
     pageRef="posts"
-    name = 'Articulos'
+    name = 'Posts'
     url = '/posts/'
     weight = 20
   [[Languages.es.menu.main]]
