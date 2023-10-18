@@ -143,15 +143,15 @@ disqusShortname = ''
   # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
   # By default (or if nothing is specified), summary is used.
 
-[Languages.it.params.author]
+[Languages.es.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
   intro = "Offensive Posts"
   name = "Offensive Posts"
-  description = "Un tema Hugo veloce e minimalista con supporto per la modalità chiara e scura, per la gestione di un sito o di un blog personale."
+  description = "We are a group of security enthusiasts ready to share knowledge"
 
 # Allow to override webmanifest options
-[Languages.it.params.webmanifest]
+[Languages.es.params.webmanifest]
   name = "sitename" # will use "params.sitename" or "title" by default
   short_name = "sitename" # same as name
   start_url = "/" # will use homepage url by default
